@@ -1,0 +1,104 @@
+
+   
+
+    
+      <p id="contacto"></p>
+      <div id="cartaporfoliofondo">
+      <div class="card text-bg-dark mt-5 mb-3  cartasombra" id="cartadecontacto"   >
+       <div class="card-header tituloanimado ">
+        <span style="--i:1">C</span>
+         <span style="--i:2">o</span>
+         <span style="--i:3">n</span>
+         <span style="--i:4">t</span>
+         <span style="--i:5">a</span>
+         <span style="--i:6">c</span>
+         <span style="--i:7">t</span>
+         <span style="--i:8">o</span>
+        </div>
+   
+        <div class="flexcartascontacto">
+        <div class="formulario ">
+        <form action="https://formsubmit.co/maribeldemarco@gmail.com" method="POST" class="needs-validation" novalidate>
+        <div class="mb-3">
+        <label for="validationCustom01" class="form-label letrascel">Nombre </label>
+        <input type="text" name="nombre" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" required>
+        <div class="invalid-feedback">
+        Por favor escribe tu nombre    </div>
+        </div>
+  
+        <div class="mb-3">
+        <label for="validationCustom02" class="form-label letrascel">Apellido </label>
+        <input type="text" name="apellido" class="form-control" id="validationCustom02" placeholder="Escribe tu apellido" required>  
+        <div class="invalid-feedback">
+        Por favor escribe tu apellido    
+        </div>
+        </div>
+
+      <div class="mb-3">
+      <label for="validationCustom03" class="form-label letrascel">Email </label>
+      <input type="email" name="email" class="form-control" id="validationCustom03" placeholder="Escribe tu mail" required>
+      <input type="hidden" name="_autoresponse" value="Copia de envío de su formulario en https://lmdemarco.netlify.app/">
+
+
+    <div class="invalid-feedback">
+    Por favor escribe tu mail    
+    </div>  
+    </div>
+  
+    <div class="mb-3">
+    <label for="validationTextarea" class="form-label letrascel">Consulta/Comentarios</label>
+    <textarea class="form-control" name="comentarios" id="validationTextarea" rows="3" placeholder="Escribe tus comentarios" required></textarea>
+    <div class="invalid-feedback">
+     Por favor escribe tus comentarios    
+    </div>
+    </div>
+
+   <div class="col-auto ">
+   <button type="submit" class="btn btn-primary mb-3 mt-2 letrascel">Enviar</button>
+    </div>
+
+  </form>
+  </div>
+    
+  <div class="card-body flexcartasiconos">
+    <div class="iconosdelformulario">
+    <a href="mailto:maribeldemarco@gmail.com"><img class="animacioniconos"src="./assets/mails.png">    </a>         
+    <p class="letrascel">[Mail]</p>
+    </div>
+    <div class="iconosdelformulario">
+    <a href="https://www.linkedin.com/in/maribel-demarco/"><img class= "animacioniconos"src="./assets/linkedin2.png">  </a>
+    <p class="letrascel">  [LinkedIn] </p>  
+    </div>
+        
+        <div class="iconosdelformulario">
+          <a href="https://github.com/maribeldemarco"><img class= "animacioniconos"src="./assets/gg.png"> </a>   
+          <p class="letrascel">  [GitHub] </p>  
+        </div>      
+        </div>
+        </div>
+        </div>
+        </div>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script>
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>

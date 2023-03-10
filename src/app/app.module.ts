@@ -9,7 +9,7 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +19,12 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
     TecnologiasComponent,
     FormularioComponent,
     EducacionComponent,
-  
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

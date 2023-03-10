@@ -1,0 +1,44 @@
+{
+    "descripcion": {
+        "presentacion": "Hola! Soy estudiante con enfoque Front-end y estoy en búsqueda de mi primer trabajo en IT.",
+        "comentarios": "Me encanta programar y aprender más para mejorar mis proyectos.",
+        "invitacion": "Te invito a ver mi portfolio, y a contactarte conmigo en caso de que sea de tu interés."
+    },
+    "image": "./assets/LindaBanner.png",
+    "portfolio": {
+        "primerproyecto": {
+            "nombre": "Escuela de Ajedrez",
+            "imagen": "./assets/escuelaajedrez2.png"
+        },
+        "segundoproyecto": {
+            "nombre": "Vida Sana",
+            "imagen": "./assets/vidasana.jpg"
+        },
+        "tecnologias": {
+            "primerTecnologia": {
+                "nombre": "[HTML]",
+                "imagen": "./assets/htmlicon.png"
+            },
+            "segundaTecnologia": {
+                "nombre": "[Bootstrap]",
+                "imagen": "./assets/bots.png"
+            },
+            "terceraTecnologia": {
+                "nombre": "[CSS]",
+                "imagen": "./assets/cssicon.png"
+            },
+            "cuartaTecnologia": {
+                "nombre": "[JavaScript]",
+                "imagen": "./assets/js1.png"
+            },
+            "quintaTecnologia": {
+                "nombre": "[Git]",
+                "imagen": "./assets/giticon.png"
+            }
+        }
+    }
+}
+
+
+
+
